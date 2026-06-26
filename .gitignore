@@ -1,8 +1,14 @@
 # Dataset files
 dataset/*.jsonl
 
+# Large processed dataset
+notebooks/final_df_processed.csv
+
 # Mac files
 .DS_Store
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Ignore all CSV files (optional)
+*.csv
